@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("/images/monte-rio-img-mike-neal.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px 0 80px;
+    color: white;
+}
+
+#hero-title {
+    font-family: "Playwrite AR", cursive;
+    background-color: #457B9D;
+    font-size: 1.25rem;
+    padding: 7px 20px;
+    border-radius: 5px;
+}
+
+#hero-subtitle {
+    background-color: #1D3557;
+    font-size: 1em;
+    padding: 5px 0;
+    border-radius: 5px;
+    margin-top: 0;
+    width: 400px;
+}
+
+h1 {
+    font-size: 1.25em;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+.activities-section {
+    background-color: #9dc3c2;
+    padding: 10px 0 10px;
+}
+
+.activities-flex-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.activity-flex-item {
+    width: 200px;
+    padding: 0 0 30px 0;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+.activity-flex-img {
+    width: 135px;
+    margin: 10px 0;
+    border-radius: 5%;
+}
+
+#activity-title {
+    font-family: "Playwrite AR", cursive;
+}
+
+.activity-intro {
+    font-family: "Playwrite AR", cursive;
+    font-weight: bold;
+}
+
+#hike {
+    height: 130px;
+    width: auto;
+}
+
+#cafe {
+    width: 185px;
+}
+
+#beach {
+    width: 180px;
+}
+
+.guide-section {
+    width: 420px;
+    height: 250px;
+    background-color: #b3d89c;
+    border-bottom: 8px solid #457B9D;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    margin: 50px auto 60px;
+}
+
+.guide-flexbox {
+    display: flex;
+    padding: 20px;
+}
+
+.guide-img {
+    height: 190px;
+    width: auto;
+    border-radius: 5%;
+}
+
+#guide-title {
+    font-family: "Playwrite AR", cursive;
+    margin: 10px 0;
+}
+
+#guide-quote {
+    padding: 5px 30px;
+    margin: 0;
+}
+
+#guide-name {
+    font-family: "Playwrite AR", cursive;
+    margin: 8px;
+}
+
+
+
